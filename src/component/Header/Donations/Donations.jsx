@@ -1,4 +1,4 @@
-import DonatesCard from "./DonatesCard";
+import DonationCard from "./DonationCard";
 
 
 const Donations = ({donations}) => {
@@ -6,7 +6,7 @@ const Donations = ({donations}) => {
         <div className="py-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {
-                    donations?.map(donate=><DonatesCard key={donate.id} donate={donate}></DonatesCard>)
+                    donations?.map(donate=><DonationCard key={donate.id} donate={donate}></DonationCard>)
                 }
             </div>
         </div>
