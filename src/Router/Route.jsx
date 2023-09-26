@@ -9,10 +9,12 @@ const myCreatedRoute = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout></MainLayout>,
+        // errorElement:
         children:[
             {
                 path:'/',
-                element:<Home></Home>
+                element:<Home></Home>,
+                loader: () => fetch('/donations.json'),
             },
             {
                 path: '/donation',
