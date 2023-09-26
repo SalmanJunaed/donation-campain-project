@@ -1,0 +1,159 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/8gjW5gy/Health.png",
+      "title": "Support Healthcare Heroes",
+      "category": "health",
+      "description": "Donate to provide medical supplies and support to healthcare workers on the frontlines.",
+      "price": 50,
+      "color": {
+        "category_background_color": "#FF6B6B",
+        "category_name_background_color": "#FF4141",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/FXypxff/Clothing.png",
+      "title": "Warm Winter Clothing Drive",
+      "category": "clothing",
+      "description": "Help keep those in need warm by donating warm clothing items for the winter season.",
+      "price": 20,
+      "color": {
+        "category_background_color": "#63B3ED",
+        "category_name_background_color": "#3182CE",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/9yKyBWm/Food.png",
+      "title": "Feed the Hungry",
+      "category": "food",
+      "description": "Contribute to feeding the hungry by supporting local food banks and shelters.",
+      "price": 30,
+      "color": {
+        "category_background_color": "#82C784",
+        "category_name_background_color": "#4CAF50",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/MGs02D3/Education.png",
+      "title": "Educational Scholarships",
+      "category": "education",
+      "description": "Empower students by providing scholarships for their education and future success.",
+      "price": 100,
+      "color": {
+        "category_background_color": "#FFD700",
+        "category_name_background_color": "#FFB300",
+        "category_text_color": "#000000"
+      }
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/8gjW5gy/Health.png",
+      "title": "Mental Health Awareness",
+      "category": "health",
+      "description": "Support mental health initiatives to raise awareness and provide resources.",
+      "price": 25,
+      "color": {
+        "category_background_color": "#FF6B6B",
+        "category_name_background_color": "#FF4141",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/FXypxff/Clothing.png",
+      "title": "Back-to-School Clothes Drive",
+      "category": "clothing",
+      "description": "Help children start the school year with confidence by donating school clothing.",
+      "price": 15,
+      "color": {
+        "category_background_color": "#63B3ED",
+        "category_name_background_color": "#3182CE",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/9yKyBWm/Food.png",
+      "title": "Community Food Pantry",
+      "category": "food",
+      "description": "Contribute to your local food pantry to help provide meals to those in need.",
+      "price": 40,
+      "color": {
+        "category_background_color": "#82C784",
+        "category_name_background_color": "#4CAF50",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/MGs02D3/Education.png",
+      "title": "STEM Education for All",
+      "category": "education",
+      "description": "Support STEM education programs to inspire the next generation of innovators.",
+      "price": 75,
+      "color": {
+        "category_background_color": "#FFD700",
+        "category_name_background_color": "#FFB300",
+        "category_text_color": "#000000"
+      }
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/8gjW5gy/Health.png",
+      "title": "Medical Research Advancements",
+      "category": "health",
+      "description": "Fund groundbreaking medical research projects to improve healthcare outcomes.",
+      "price": 60,
+      "color": {
+        "category_background_color": "#FF6B6B",
+        "category_name_background_color": "#FF4141",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/FXypxff/Clothing.png",
+      "title": "Winter Coat Drive",
+      "category": "clothing",
+      "description": "Donate winter coats to help those in cold climates stay warm during winter.",
+      "price": 20,
+      "color": {
+        "category_background_color": "#63B3ED",
+        "category_name_background_color": "#3182CE",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/9yKyBWm/Food.png",
+      "title": "Hunger Relief for Families",
+      "category": "food",
+      "description": "Support programs that provide nutritious meals to families facing food insecurity.",
+      "price": 35,
+      "color": {
+        "category_background_color": "#82C784",
+        "category_name_background_color": "#4CAF50",
+        "category_text_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/MGs02D3/Education.png",
+      "title": "Literacy for All",
+      "category": "education",
+      "description": "Promote literacy and education for individuals of all ages through your donations.",
+      "price": 90,
+      "color": {
+        "category_background_color": "#FFD700",
+        "category_name_background_color": "#FFB300",
+        "category_text_color": "#000000"
+      }
+    }
+  ]
+  
