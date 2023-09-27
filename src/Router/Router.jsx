@@ -4,35 +4,35 @@ import Home from "../pages/Home/Home";
 import Donation from "../pages/Donation/Donation";
 import Statistics from "../pages/Statistics/Statistics";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
-// import Donate from "../pages/Donate/Donate";
+import Donate from "../pages/Donate/Donate";
 
 
-const myCreatedRoute = createBrowserRouter([
+const myCreatedRouter = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout></MainLayout>,
-        errorElement: <ErrorPage></ErrorPage>,
+        errorElement: <ErrorPage></ErrorPage> ,
         children:[
             {
                 path:'/',
                 element:<Home></Home>,
-                loader: () => fetch('/donations.json'),
+                loader: ()=> fetch('/donates.json'),
             },
             {
                 path: '/donation',
-                element: <Donation></Donation>
+                element: <Donation></Donation>,
             },
             {
                 path: '/statistics',
-                element: <Statistics></Statistics>
+                element: <Statistics></Statistics>,
             },
-            // {
-            //     path: '/donations/:id',
-            //     element: <Donate></Donate>,
-            //     loader: () => fetch('/donations.json'),
-            // }
+            {
+                path: '/donates/:id',
+                element:<Donate></Donate>,
+                loader: ()=> fetch('/donates.json'),
+            }
         ]
     }
-]) 
+])
 
-export default myCreatedRoute;
+export default myCreatedRouter;

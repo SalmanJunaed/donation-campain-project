@@ -8,8 +8,8 @@ const Banner = () => {
                 <div className=" text-gray-800 text-center">
                     <div className="max-w-xl">
                         <h1 className=" mb-5 text-4xl font-bold">I Grow By Helping People In Need</h1>
-                        <input type="text" placeholder="Search" className="input input-bordered" />
-                        <button className="btn btn-primary">Get Started</button>                    
+                        <input type="text" placeholder="Search by category" className="input input-bordered" />
+                        <button className="btn bg-red-500 text-white">Search</button>                    
                     </div>
                 </div>
             </div>

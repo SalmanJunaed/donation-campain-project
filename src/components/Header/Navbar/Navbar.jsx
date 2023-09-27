@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
+
 const Navbar = () => {
     return (
         <div>
@@ -9,19 +10,20 @@ const Navbar = () => {
                     <Logo></Logo>
                 </div>
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1 text-base">
+                    <ul className="menu menu-horizontal px-1 text-base text-red-500">
                         <li>
-                        <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-red-500 text-xl underline" : ""}>
+
+                        <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active text-xl underline" : ""}>
                             Home
                         </NavLink>
                         </li> 
                         <li>
-                        <NavLink to="/donation" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "  text-red-500 text-xl underline" : ""}>
+                        <NavLink to="/donation" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active  text-xl underline" : ""}>
                             Donation
                         </NavLink>
                         </li> 
                         <li>
-                        <NavLink to="/statistics" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "  text-red-500 text-xl underline" : ""}>
+                        <NavLink to="/statistics" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active text-xl underline" : ""}>
                             Statistics
                         </NavLink>
                         </li> 
